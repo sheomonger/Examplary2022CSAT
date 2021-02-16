@@ -1,5 +1,7 @@
 # Examplary2022CSAT
 
-To build DB for given examlary problems of 2022 school year CSAT in Korea.
+To build DB for given examplary problems of 2022 school year CSAT in Korea.
 
-For LambdaAlgoers
+For LambdaAlgoers.
+
+Sample files and 48 files to do.
