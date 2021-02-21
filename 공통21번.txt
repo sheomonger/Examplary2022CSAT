@@ -31,6 +31,11 @@
 <br>###문제부분###########################################################################
 <br>[#문제부분#]
 <br><문제내용>
+그림과 같이 한 평면 위에 있는 두 삼각형 $\mathrm{ABC}$, $\mathrm{ACD}$의 외심을 각각 $\mathrm{O}$, $\mathrm{O}^{\prime}$이라 하고 
+$\angle \mathrm{ABC} = \alpha$, $\angle \mathrm{ADC} = \beta$라 할 때,
+$$\frac{\mathrm{sin}\beta}{\mathrm{sin}\alpha} = \frac{3}{2}, \quad \mathrm{cos}(\alpha + \beta) = \frac{1}{3}, \quad \overline{\mathrm{OO^{\prime}}} = 1$$	
+이 성립한다. 삼각형 $\mathrm{ABC}$의 외접원의 넓이가 $\frac{q}{p}\pi$ 일 때, $p + q$의 값을 구하시오. (단, $p$ 와 $q$ 는 서로소인 자연수이다.) [4점]
+<<IMG1>>
 <br><박스타입>
 <br><박스내용>
 <br>[#조건부분#]
@@ -48,6 +53,7 @@
 <br><선택4>
 <br><선택5>
 <br>[#문제내이미지#]
+IMG1:A B C D O O^{prime} alpha beta.png
 <br>[#박스내이미지#]
 <br>[#조건내이미지#]
 <br><조건1>
@@ -62,7 +68,9 @@
 <br><선택4>
 <br><선택5>
 <br>[#발표정답#]
+$26$
 <br>[#태그부분#]
+#2022학년도 대학수학능력시험 예시문항 공통21번 #사인법칙 #코사인법칙 #원의 성질
 <br>######문제부분########################################################################
 <br>###밑줄설명###########################################################################
 <br>[#문제설명#]
@@ -74,25 +82,43 @@
 <br>######밑줄설명########################################################################
 <br>###풀이단계###########################################################################
 <br><단계1>
+미지수 설정
 <br><단계2>
+사인법칙
 <br><단계3>
+원의 성질 (원주각, 중심각)
 <br><단계4>
+코사인법칙
 <br><단계5>
 <br><단계6>
 <br><단계7>
 <br><정답>
-정답 : 
+정답 : $26$
 <br>######풀이단계########################################################################
 <br>###풀이내용###########################################################################
 <br><풀이1>
+삼각형 $\mathrm{ABC}$ 의 외접원의 반지름을 $R$ 이라 하면 $R = \overline{\mathrm{OA}} = \overline{\mathrm{OB}} = \overline{\mathrm{OC}}$ 이다.
+삼각형 $\mathrm{ADC}$ 의 외접원의 반지름을 $x$ 이라 하자.
+두 삼각형이 관계된 식 $\displaystyle{}\frac{\mathrm{sin}\beta}{\mathrm{sin}\alpha} = \frac{3}{2}$ 로 부터 $R$ 과 $x$ 의 관계식을 구할 수 있다.
 <br><풀이2>
+사인법칙에 의해 $\displaystyle{}\frac{\overline{\mathrm{AC}}}{\mathrm{sin}\alpha} = 2 R$ 이고 
+$\displaystyle{}\frac{\overline{\mathrm{AC}}}{\mathrm{sin}\beta} = 2 x$ 이다.
+두 식을 변변 나누면 $\displaystyle{}\frac{\mathrm{sin}\beta}{\mathrm{sin}\alpha} = \frac{R}{x}$ 이므로 $\frac{R}{x} = \frac{3}{2}$ 이다.
+$x = \frac{2}{3} R$ 즉, 삼각형 $\mathrm{ABC}$ 의 외접원의 반지름이 $R$일 때 삼각형 $\mathrm{ADC}$ 의 외접원의 반지름은 $\frac{2}{3} R$ 이다.
 <br><풀이3>
+한 호에 대한 중심각은 그 호에 대한 원주각의 두 배이므로 $\angle \mathrm{AOC} = 2 \alpha$, $\angle \mathrm{AO^{\prime}C} = 2 \beta$ 이다.
+삼각형 $\mathrm{OAO^{\prime}}$ 에서 $\angle{OAO^{\prime}} = \pi - (\alpha + \beta) $ 을 알 수 있고, $\mathrm{cos}(\alpha + \beta) = \frac{1}{3}$ 이므로
+$\mathrm{cos}(\pi - (\alpha + \beta) ) = - \frac{1}{3}$ 이다.
 <br><풀이4>
+삼각형 $\mathrm{OAO^{\prime}}$ 에서 각 $\angle{OAO^{\prime}}$ 에 대해 코사인법칙을 적용시켜 보면 $\overline{OO^{\prime}} = 1$ 이므로
+$$1^{2} = R^{2} + \left( \frac{2}{3}R \right)^{2} - 2 \times R \times \frac{2}{3}R \times \left( - \frac{1}{3}\right)$$
+정리하면 $1 = \frac{17}{9}R^{2}$ 이다.
+그러므로 삼각형 $\mathrm{ABC}$ 의 외접원의 넓이는 $\pi R^{2} = \frac{9}{17} R^{2}$ 이므로 $p = 17$ 이고 $q = 9$ 이다.
 <br><풀이5>
 <br><풀이6>
 <br><풀이7>
 <br><정답>
-따라서 
+따라서 $p + q = 17 + 9 = 26$ 이다.
 <br><풀이1내이미지>
 <br><풀이2내이미지>
 <br><풀이3내이미지>
