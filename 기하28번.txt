@@ -31,6 +31,10 @@
 <br>###문제부분###########################################################################
 <br>[#문제부분#]
 <br><문제내용>
+좌표평면에서 반원의 호 $x^{2} + y^{2} = 4 (x \ge 0)$ 위의 한 점 $\mathrm{P}(a, b)$에 대하여
+$$\overrightarrow{\mathrm{OP}} \cdot \overrightarrow{\mathrm{OQ}} = 2$$	
+를 만족시키는 반원의 호 $(x+5)^{2} + y^{2} = 16 (y \ge 0)$ 위의 점 $\mathrm{Q}$ 가 하나뿐일 때, 
+$a + b$의 값은? (단, $\mathrm{O}$는 원점이다.) [4점] <<IMG1:CEN>>
 <br><박스타입>
 <br><박스내용>
 <br>[#조건부분#]
@@ -42,12 +46,19 @@
 <br><조건5>
 <br>[#선택지부분#]
 <br><선택타입>
+NUM_CIRC
 <br><선택1>
+$\frac{12}{5}$
 <br><선택2>
+$\frac{5}{2}$
 <br><선택3>
+$\frac{12}{5}$
 <br><선택4>
+$\frac{27}{10}$
 <br><선택5>
+$\frac{14}{5}$
 <br>[#문제내이미지#]
+IMG1:O x y(two semicircles).png
 <br>[#박스내이미지#]
 <br>[#조건내이미지#]
 <br><조건1>
@@ -62,7 +73,9 @@
 <br><선택4>
 <br><선택5>
 <br>[#발표정답#]
+5
 <br>[#태그부분#]
+#2022학년도 대학수학능력시험 예시문항 기하28번 #내적의 계산 #내적의 성질 #삼각함수의 정의
 <br>######문제부분########################################################################
 <br>###밑줄설명###########################################################################
 <br>[#문제설명#]
@@ -74,28 +87,46 @@
 <br>######밑줄설명########################################################################
 <br>###풀이단계###########################################################################
 <br><단계1>
+벡터의 연산 (내적)
 <br><단계2>
+위치벡터 
 <br><단계3>
+삼각함수의 정의
 <br><단계4>
 <br><단계5>
 <br><단계6>
 <br><단계7>
 <br><정답>
-정답 : 
+정답 : $\frac{14}{5}$
 <br>######풀이단계########################################################################
 <br>###풀이내용###########################################################################
 <br><풀이1>
+반원 위의 점 $\mathrm{P}$ 는 그 위치에 관계없이 크기는 $| \overrightarrow{\mathrm{OP}} | = 2$ 로 일정하다.
+$\overrightarrow{\mathrm{OQ}}$ 를 직선 $\mathrm{OP}$ 에 내린 정사영의 길이가 $1$ 이고 $\overrightarrow{\mathrm{OP}}$ 와
+같은 방향일 때 내적 $\overrightarrow{\mathrm{OP}} \cdot \overrightarrow{\mathrm{OQ}} = 2 \times 1 = 2$ 이다.  
 <br><풀이2>
+$\overrightarrow{\mathrm{OP}} \cdot \overrightarrow{\mathrm{OQ}} = 2$ 인 점 $\mathrm{Q}$ 가 하나 뿐이므로 
+점 $\mathrm{Q}$ 에서의 접선이 선분 $\overline{\mathrm{OP}}$ 의 중점에서 직선 $\mathrm{OP}$와 수직으로 만나야 한다.
+이렇게 되어야 $\overrightarrow{\mathrm{OQ}}$ 를 직선 $\mathrm{OP}$ 에 내린 정사영의 길이가 $1$ 이 된다.
 <br><풀이3>
+점 $\mathrm{Q}$ 가 속하는 반원의 중심을 $\mathrm{C}$ 라고 하면 $\mathrm{C}(-5, 0)$ 이다.<<IMG1:RIG>>
+점 $\mathrm{P}(a, b)$ 에서 삼각함수의 정의에 의해서 $a = 2 \mathrm{cos}\theta$, $b = 2 \mathrm{sin}\theta$ 라 놓을 수 있다. 
+(단, $\displaystyle{} -\frac{\pi}{2} \le \theta \le \frac{\pi}{2}$)
+$\overrightarrow{\mathrm{OP}} \cdot \overrightarrow{\mathrm{OQ}} = 2$을 만족시키는 점 $\mathrm{Q}$ 와 $\theta$ 에 대하여
+점 $\mathrm{Q}$ 의 선분 $\overline{\mathrm{QC}}$ 에 내린 수선의 발을 $\mathrm{H}$ 라고 하자.
+$\overline{\mathrm{OP}} // \overline{\mathrm{CQ}}$ 이므로 직각삼각형 $\mathrm{OHC}$ 에서 각 $\angle \mathrm{HCO} = \theta$ 이다.
+$\overline{\mathrm{OC}} = 5$ 이고 $\overline{\mathrm{CH}} = 3$ 이므로 $\overline{\mathrm{OH}} = 4$, 
+$\mathrm{cos}\theta = \frac{3}{5}$ 이고 $\mathrm{sin}\theta = \frac{4}{5}$ 이다.
 <br><풀이4>
 <br><풀이5>
 <br><풀이6>
 <br><풀이7>
 <br><정답>
-따라서 
+따라서 $a + b = 2 \mathrm{cos}\theta + 2 \mathrm{sin}\theta = \frac{14}{5}$ 이다.
 <br><풀이1내이미지>
 <br><풀이2내이미지>
 <br><풀이3내이미지>
+IMG1:C H O P Q x y(two semicircles).png
 <br><풀이4내이미지>
 <br><풀이5내이미지>
 <br><풀이6내이미지>
