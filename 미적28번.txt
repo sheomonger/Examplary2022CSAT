@@ -31,6 +31,11 @@
 <br>###문제부분###########################################################################
 <br>[#문제부분#]
 <br><문제내용>
+그림과 같이 길이가 $2$ 인 선분 $\mathrm{AB}$ 를 지름으로 하는 반원의 호 위에 점 $\mathrm{P}$가 있고, 
+선분  $\mathrm{AB}$ 위에 점 $\mathrm{Q}$가 있다.
+$\angle \mathrm{PAB} = \theta$이고 $\angle \mathrm{APQ} = \frac{\theta}{3}$ 일 때, 삼각형 $\mathrm{APQ}$의 넓이를 $S(\theta)$, 
+선분 $\mathrm{PB}$의 길이를 $l(\theta)$라 하자. $\displaystyle{}\lim_{\theta \to 0+}\frac{S(\theta)}{l(\theta)}$의 값은?
+(단, $0 < \theta < \frac{\pi}{4}$) [4점] <<IMG1:CEN>>
 <br><박스타입>
 <br><박스내용>
 <br>[#조건부분#]
@@ -42,11 +47,17 @@
 <br><조건5>
 <br>[#선택지부분#]
 <br><선택타입>
+NUM_CIRC
 <br><선택1>
+$\frac{1}{12}$
 <br><선택2>
+$\frac{1}{6}$
 <br><선택3>
+$\frac{1}{4}$
 <br><선택4>
+$\frac{1}{3}$
 <br><선택5>
+$\frac{5}{12}$
 <br>[#문제내이미지#]
 <br>[#박스내이미지#]
 <br>[#조건내이미지#]
@@ -62,7 +73,9 @@
 <br><선택4>
 <br><선택5>
 <br>[#발표정답#]
+3
 <br>[#태그부분#]
+#2022학년도 대학수학능력시험 예시문항 미적28번 #삼각함수 #삼각함수의 극한 #사인법칙 #0/0꼴 극한 
 <br>######문제부분########################################################################
 <br>###밑줄설명###########################################################################
 <br>[#문제설명#]
@@ -74,25 +87,47 @@
 <br>######밑줄설명########################################################################
 <br>###풀이단계###########################################################################
 <br><단계1>
+도형의 성질 (원, 삼각형)
 <br><단계2>
+도형의 넓이 (삼각형)
 <br><단계3>
+사인법칙
 <br><단계4>
+극한값 계산 (0/0꼴)
 <br><단계5>
 <br><단계6>
 <br><단계7>
 <br><정답>
-정답 : 
+정답 : $\frac{1}{4}$
 <br>######풀이단계########################################################################
 <br>###풀이내용###########################################################################
 <br><풀이1>
+원의 지름 $\mathrm{AB}$과 원 위의 한 $\mathrm{P}$점은 직각삼각형 $\mathrm{PAB}$을 만든다.
+그러므로 $\overline{\mathrm{AP}} = 2 /mathrm{cos}\theta$, $\overline{\mathrm{BP}} = 2 /mathrm{sin}\theta = l(\theta)$
+이고 $\angle \mathrm{PQB} = \frac{4}{3}\theta$
 <br><풀이2>
+삼각형 $\mathrm{APQ}$의 넓이는 $S(\theta) = \frac{1}{2} \overline{\mathrm{AP}} \overline{\mathrm{AQ}} \mathrm{sin}\theta$ 이다.
+$\overline{\mathrm{AP}} = 2 \mathrm{cos}\theta$ 이므로 $\overline{\mathrm{AQ}}$ 를 $\theta$ 의 식으로 표현하면 된다.
 <br><풀이3>
+삼각형 $\mathrm{APQ}$ 에서 $\overline{\mathrm{AP}} = 2 \mathrm{cos}\theta$, $\angle \mathrm{P} = \frac{\theta}{3} $ 이고 $\angle \mathrm{Q} = \pi - \frac{4}{3} \theta$ 이다.
+사인법칙에 의해서
+$$\frac{2 \mathrm{cos}\theta}{\mathrm{sin}\left( \pi - \frac{4}{3} \theta \right)} = \frac{\overline{\mathrm{AQ}}}{\mathrm{sin}\frac{\theta}{3}}$$
+이다.
+$$\overline{\mathrm{AQ}} = \frac{2 \mathrm{cos}\theta \mathrm{sin}\frac{\theta}{3}}{\mathrm{sin}\frac{4}{3}\theta}$$
+이므로
+$\displaystyle{}S(\theta) = \frac{1}{2} \times 2 \mathrm{cos}\theta \times \frac{2 \mathrm{cos}\theta \mathrm{sin}\frac{\theta}{3}}{\mathrm{sin}\frac{4}{3}\theta} \times \mathrm{sin}\theta$
+이다.
 <br><풀이4>
+$\displaystyle{}\frac{S(\theta)}{l(\theta)} = \frac{\mathrm{cos}^{2}\theta \mathrm{sin}\frac{\theta}{3}}{\mathrm{sin}\frac{4}{3}\theta}$ 이므로
+$$\lim_{\theta \to 0+}\frac{S(\theta)}{l(\theta)} 
+= \lim_{\theta \to 0+}\frac{\mathrm{cos}^{2}\theta \mathrm{sin}\frac{\theta}{3}}{\mathrm{sin}\frac{4}{3}\theta}
+= \lim_{\theta \to 0+} \mathrm{cos}^{2}\theta \times \frac{\frac{4}{3}\theta}{\mathrm{sin}\frac{4}{3}\theta} \times \frac{\mathrm{sin}\frac{\theta}{3}}{\frac{\theta}{3}} \times \frac{1}{4} 
+= 1 \times 1 \times1 \times \frac{1}{4}$$
 <br><풀이5>
 <br><풀이6>
 <br><풀이7>
 <br><정답>
-따라서 
+따라서 $\displaystyle{}\lim_{\theta \to 0+}\frac{S(\theta)}{l(\theta)} = \frac{1}{4}$ 이다.
 <br><풀이1내이미지>
 <br><풀이2내이미지>
 <br><풀이3내이미지>
